@@ -10,21 +10,6 @@ Financial institutions lose billions annually to loan defaults. This project bui
 
 
 
- Project Architecture
-
-creditLine/
-│
-├── data/ # Raw and processed datasets
-├── feature_store/ # Feature engineering pipeline & versioned features
-├── models/ # Trained and serialized ML models
-├── 01_eda.ipynb # Exploratory Data Analysis notebook
-├── app.py # Streamlit/Flask web application
-├── init.py # Package initialization
-├── Dockerfile # Container configuration
-├── Makefile # Automated build & run commands
-├── .env.example # Environment variable template
-└── README.md
-
 
 
 ## 📊 Key Features
